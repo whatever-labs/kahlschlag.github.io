@@ -1,0 +1,4 @@
+--- 
+scope: unix
+---
+rm -rf
