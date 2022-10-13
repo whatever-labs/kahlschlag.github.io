@@ -24,8 +24,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   A product by @whatever-labs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kahlschlag.dev" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
-github_username:  whatever-labs
+social:
+  twitter: 'whatever-labs'
+  github: 'whatever-labs'
+copyright: '@whatever-labs'
 
 # Build settings
 remote_theme: supun-io/jekyll-theme-leaf@0.1.0

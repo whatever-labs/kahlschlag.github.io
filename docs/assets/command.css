@@ -1,0 +1,32 @@
+.command {
+  border: 3px solid black;
+  border-radius: 15px;
+  margin-top : 2%;
+  margin-bottom: 2%;
+  background-color: #999999;
+}
+
+.command-header {
+  background-color: #555555;
+  border-bottom: 2px solid black;
+  border-top-width: 3px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  font-style: italic;
+  color: #999999;
+  padding-left: 3%;
+  text-shadow: 2px 2px #AAA;
+}
+
+.command-body {
+  color: #222222;
+  margin: 3%;
+}
+
+.command-body > p {
+  font-family: monospace;
+  border: 1px solid #222;
+  background-color: #006600;
+  padding: 1%;
+  color: #DDD;
+}
