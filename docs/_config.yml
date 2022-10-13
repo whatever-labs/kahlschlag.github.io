@@ -28,8 +28,9 @@ twitter_username: ""
 github_username:  whatever-labs
 
 # Build settings
-theme: jekyll-theme-leaf
+remote_theme: supun-io/jekyll-theme-leaf@0.1.0
 plugins:
+  - jekyll-remote-theme 
   - jekyll-feed
 
 collections_dir: ./collections
